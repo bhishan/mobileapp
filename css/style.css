@@ -53,6 +53,9 @@ div.hwrapper { overflow: hidden; width: inherit; }
 
 strong { font-style: bold; }
 */
+.page-content{ background:#eff9fb url(../img/page-bg.png) no-repeat right top; padding:60px 15px 70px 15px; color:#00656d; overflow-y:auto;}
+
+
 .ui-page {
     backface-visibility:hidden;
 -webkit-backface-visibility:hidden; 
