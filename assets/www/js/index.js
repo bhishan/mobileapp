@@ -149,7 +149,7 @@ var app = {
     authors: function () {
         var dfd = $.Deferred();
         $.ajax({
-            url: 'http://thelacunablog.com/api/get_author_index',
+            url: 'http://dwitnews.com/api/get_author_index',
             type: 'GET',
             dataType: 'json',
             success: function (data) {
@@ -188,7 +188,7 @@ var app = {
     },
       page: function (slug) { 
         $.ajax({
-            url: 'http://thelacunablog.com/?json=get_page&slug=' + slug,
+            url: 'http://dwitnews.com/?json=get_page&slug=' + slug,
             type: 'GET',
             dataType: 'json',
             success: function (data) {
@@ -212,7 +212,7 @@ var app = {
             var jsonRequest;
            
             var count = 13;
-            var jsonURL = "http://thelacunablog.com/?json=";
+            var jsonURL = "http://dwitnews.com/?json=";
             if (type == 'category') {
                 jsonRequest = "get_category_posts";
                 jsonURL += jsonRequest;
